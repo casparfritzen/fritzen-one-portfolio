@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Caspar Emanuel Fritzen - Portfolio',
     description: 'This site aims to replace a classical CV in a playful manner.',
-    image: 'https://avatars.githubusercontent.com/u/36100952?v=4'
+    image: 'https://media.licdn.com/dms/image/C4E03AQE5oXNATLy0QQ/profile-displayphoto-shrink_800_800/0/1664179816645?e=1712188800&v=beta&t=Hsvdv2o_Vid4f2Nrc0o7Q_EcW8SRPEFO9uSVIdBXzYI'
   }
 
   return (
