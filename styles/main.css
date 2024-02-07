@@ -67,3 +67,48 @@ img.next-image {
 .center-text {
   text-align: center;
 }
+
+.education-section {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.education-section h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.school {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.school-logo {
+  height: 64px; /* Adjust as necessary */
+  margin-right: 1em;
+}
+
+.school-details {
+  border-left: 2px solid #333;
+  padding-left: 1em;
+}
+
+.school-details h3 {
+  font-size: 1.5em;
+  margin: 0 0 0.3em 0;
+}
+
+.school-details p {
+  margin: 0.3em 0;
+  color: #555;
+}
+
+.school-details span {
+  display: inline-block;
+  color: #eee;
+  padding: 0.2em 0.6em;
+  border-radius: 2px;
+  font-size: 0.9em;
+}
