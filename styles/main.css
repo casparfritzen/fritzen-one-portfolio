@@ -112,3 +112,8 @@ img.next-image {
   border-radius: 2px;
   font-size: 0.9em;
 }
+
+.summary {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
