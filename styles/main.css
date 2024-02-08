@@ -117,3 +117,14 @@ img.next-image {
   font-size: 1.2em;
   line-height: 1.8;
 }
+
+.icon-background {
+  border-radius: 50%;
+  background: white;
+  padding: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+}
