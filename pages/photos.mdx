@@ -9,12 +9,14 @@ date: 2024-02-01
 Some of my favourites.
 
 import Image from 'next/image'
+import sky from "/images/sky.jpeg"
+import car from "/images/car.jpeg"
+import mountains from "/images/mountains.jpeg"
 
 <Image
-  src="/images/sky.jpeg"
+  src={sky}
   alt="Photo"
-  width={1125}
-  height={750}
+  placeholder="blur"
   priority
   className="next-image"
 />
