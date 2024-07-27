@@ -5,12 +5,12 @@ date: 2024-02-01
 ---
 
 import Image from 'next/image'
+import caspar from "../public/images/caspar_front.jpeg"
 
 <Image
-  src="/images/caspar_front.jpeg"
-  alt="Photo"
-  width={1125}
-  height={750}
+  src={caspar}
+  alt="portrait of caspar fritzen"
+  placeholder="blur"
   priority
   className="next-image"
 />
@@ -25,7 +25,7 @@ import Image from 'next/image'
 ------------------
 
 <div className="center-text summary">
-  <div>GFB Paint Shop [@Tesla](https://ts.la)</div>
+  <div>Paint [@Tesla](https://ts.la)</div>
   <div>MSc Computer Science and Energy Markets [@TUM](https://tum.de)</div>
   <div>Sustainable Tech, LLMs and CS</div>
 </div>
