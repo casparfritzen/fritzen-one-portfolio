@@ -60,6 +60,29 @@ img.next-image {
   color: #0074de;
 }
 
+.cv-pdf-preview {
+  width: min(calc(100vw - 2rem), 1120px);
+  max-width: calc(100vw - 2rem);
+  margin: 1.5rem 50% 1rem;
+  transform: translateX(-50%);
+}
+
+.cv-pdf-preview iframe {
+  display: block;
+  width: 100%;
+  height: min(86vh, 980px);
+  min-height: 760px;
+  border: 0;
+  background: #f3f4f6;
+}
+
+@media screen and (max-width: 640px) {
+  .cv-pdf-preview iframe {
+    height: 72vh;
+    min-height: 520px;
+  }
+}
+
 .nav-line .nav-link {
   color: #69778c;
 }
